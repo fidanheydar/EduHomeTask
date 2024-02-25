@@ -63,23 +63,6 @@ while (opt != "0")
     
  while (opt != "0") 
 
- {
- 
-    Console.WriteLine("***** MENU *****");
-    Console.WriteLine("1. Create Speaker");
-    Console.WriteLine("2. View Speaker by Id");
-    Console.WriteLine("3. View All Speakers");
-    Console.WriteLine("4. Delete Speaker");
-    Console.WriteLine("5. Update Speaker");
-    Console.WriteLine("6. Create Event");
-    Console.WriteLine("7. Get Event by Id");
-    Console.WriteLine("8. View All Events");
-    Console.WriteLine("0. Exit");
-
-    Console.Write("Enter your choice: ");
-    opt = Console.ReadLine();
- }
-
 
  static void AddSpeaker(SpeakerDao speakerDao, List<int> speakerIds)
 

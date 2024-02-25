@@ -17,7 +17,7 @@ namespace EduHomeTask.Model
         public TimeSpan EndTime { get; set; }
         public override string ToString()
         {
-            return $"{Id}-{Name}-{Description}-{Address}-{StartDate}-{StartTime}-{EndTime}";
+            return $"{Id}.{Name}-{Description}-{Address}-{StartDate}-{StartTime}-{EndTime}";
         }
     }
 }
